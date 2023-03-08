@@ -1,0 +1,91 @@
+.supernova {
+    background-image: url("fundo04.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body { 
+    min-height: 99vh;
+    flex-direction: column;
+    margin: 0;
+  }
+header, footer {
+    background: none;
+    height: 10vh;
+    
+}
+  header, footer,nav, aside {
+    padding: 1em;
+  }
+ 
+ 
+  /* Grid */
+  .container {
+    width: var(--containerSize);
+    display: block;
+    margin: 0 auto;
+    padding: var(--gutter);
+  }
+  .container-fluid {
+    width: 100%;
+    display: block;
+  }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Visual */
+  * {
+    text-align: center;
+  }
+  
+  .item {
+    background: #3503c0;
+    border: 1px solid #bbb;
+    padding: 15px;
+    overflow: hidden;
+  }
+  .sidebar {
+	background-color: #333;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 200px;
+	color: #fff;
+}
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar li {
+	padding: 10px;
+}
+.sidebar li:hover {
+	background-color: #444;
+}
+.sidebar a {
+	color: #fff;
+	text-decoration: none;
+}
+h1, h2, p, header, nav{
+    font-family: 'Sonsie One', cursive ;
+    color: #ffffff;
+}
+h1, h2{
+    font-family: 'Sonsie One', cursive;
+    color: #12f09b;
+}
+h1{
+    font-family: 'Sonsie One', cursive;
+    color: #ffffff;
+}
+h2{
+    font-family: 'Sonsie One', cursive;
+    color: #ca0000;
+}
